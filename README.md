@@ -10,6 +10,9 @@ Libraries: Mention in a requirements.txt file
 
 ## Chat with your documents 🚀
 [Huggingface model](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/blob/main/llama-2-7b-chat.ggmlv3.q8_0.bin) as Large Language model
+
 https://python.langchain.com/docs/get_started/introduction.html as a Framework for LLM
+
 Streamlit for deploying.
+
 GGML to run in commodity hardware (cpu)
