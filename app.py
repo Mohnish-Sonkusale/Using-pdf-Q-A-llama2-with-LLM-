@@ -15,6 +15,12 @@ llm = CTransformers(
       temperature = 0.5
   )
 
+if not llm:
+        raise ValueError("Llm is not assigned,Please assign the llm")
+else:
+      pass
+      
+
 # Initialize instructor embeddings using the Hugging Face model and mention vectorbd_path
 DATA_PATH = r"\data"  # Choose your file path
 DB_FAISS_PATH = "db_faiss_index"   # create faiss index folder locally 
